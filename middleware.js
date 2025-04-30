@@ -60,8 +60,9 @@ export function middleware(request) {
   }
 
   const pathSegments = pathname.split('/').filter(Boolean);
-  const firstSegment = pathSegments[0];
+  const firstSegment = pathSegments[0]?.toLowerCase();
 
+  console.log("inside middleware: ",firstSegment);
   // Handle locale variants (like en-GB)
   if (firstSegment?.includes('-')) {
     const baseLang = firstSegment.split('-')[0];
