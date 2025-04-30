@@ -77,22 +77,7 @@ const TourDetailsPage = async ({ params }) => {
 
       <div className="tour-details-wrapper">
         <div className="tour-detail-image-wrapper">
-          <img
-            src={image1}
-            alt="image from the import image 1"
-            width={300}
-            height={400}
-            quality={90}
-          />
-        </div>
-        {t("tourDetailsPage")}
-        <h4>{theParams.id}</h4>
-        <h4>{theParams.slug}</h4>
-      </div>
-
-      <div className="tour-details-wrapper">
-        <div className="tour-detail-image-wrapper">
-          <img
+          <Image
             src={"/assets/images/image1.jpg"}
             alt="image from second import"
             width={400}

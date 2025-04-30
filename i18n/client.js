@@ -8,7 +8,7 @@ i18n
   .init({
     lng: 'en', // default, will be overridden by I18nProvider
     fallbackLng: 'en',
-    supportedLngs: ['en', 'ar'],
+    supportedLngs: ['en', 'ar', 'fr'],
     backend: {
       loadPath: '/locales/{{lng}}/common.json',
     },

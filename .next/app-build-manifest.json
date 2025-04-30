@@ -15,6 +15,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[locals]/images/page.js"
+    ],
+    "/[locals]/tours/[id]/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locals]/tours/[id]/[slug]/page.js"
     ]
   }
 }

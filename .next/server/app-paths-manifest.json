@@ -1,4 +1,5 @@
 {
+  "/[locals]/images/page": "app/[locals]/images/page.js",
   "/[locals]/page": "app/[locals]/page.js",
-  "/[locals]/images/page": "app/[locals]/images/page.js"
+  "/[locals]/tours/[id]/[slug]/page": "app/[locals]/tours/[id]/[slug]/page.js"
 }
